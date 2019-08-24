@@ -97,7 +97,7 @@ class Dashboard extends React.Component {
                             type="radio"
                           />
                           <span className="d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                            Accounts
+                            Applicants
                           </span>
                           <span className="d-block d-sm-none">
                             <i className="tim-icons icon-single-02" />
@@ -198,8 +198,8 @@ class Dashboard extends React.Component {
               </Card>
             </Col>
           </Row>
-          <Row>
-            <Col lg="6" md="12">
+          {/* <Row> */}
+            {/* <Col lg="6" md="12">
               <Card className="card-tasks">
                 <CardHeader>
                   <h6 className="title d-inline">Tasks(5)</h6>
@@ -423,8 +423,8 @@ class Dashboard extends React.Component {
                   </div>
                 </CardBody>
               </Card>
-            </Col>
-            <Col lg="6" md="12">
+            </Col> */}
+            {/* <Col lg="6" md="12">
               <Card>
                 <CardHeader>
                   <CardTitle tag="h4">Simple Table</CardTitle>
@@ -486,8 +486,8 @@ class Dashboard extends React.Component {
                   </Table>
                 </CardBody>
               </Card>
-            </Col>
-          </Row>
+            </Col> */}
+          {/* </Row> */}
         </div>
       </>
     );

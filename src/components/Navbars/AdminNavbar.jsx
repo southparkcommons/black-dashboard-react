@@ -141,7 +141,7 @@ class AdminNavbar extends React.Component {
                     <span className="d-lg-none d-md-block">Search</span>
                   </Button>
                 </InputGroup>
-                <UncontrolledDropdown nav>
+                {/* <UncontrolledDropdown nav>
                   <DropdownToggle
                     caret
                     color="default"
@@ -179,7 +179,7 @@ class AdminNavbar extends React.Component {
                       </DropdownItem>
                     </NavLink>
                   </DropdownMenu>
-                </UncontrolledDropdown>
+                </UncontrolledDropdown> */}
                 <UncontrolledDropdown nav>
                   <DropdownToggle
                     caret

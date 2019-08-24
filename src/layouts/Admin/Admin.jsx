@@ -28,8 +28,6 @@ import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
 import routes from "routes.js";
 
-import logo from "assets/img/react-logo.png";
-
 var ps;
 
 class Admin extends React.Component {
@@ -118,7 +116,7 @@ class Admin extends React.Component {
             logo={{
               outterLink: "https://southparkcommons.com",
               text: "SPC",
-              imgSrc: logo
+              imgSrc: "https://www.southparkcommons.com/static/media/SPCLogo.cd02d9e3.svg"
             }}
             toggleSidebar={this.toggleSidebar}
           />
