@@ -28,7 +28,7 @@ var routes = [
   {
     path: "/dashboard",
     name: "Dashboard",
-    rtlName: "لوحة القيادة",
+    rtlName: "dashboard_admin",
     icon: "tim-icons icon-chart-pie-36",
     component: Dashboard,
     layout: "/admin"
@@ -36,7 +36,7 @@ var routes = [
   {
     path: "/icons",
     name: "Icons",
-    rtlName: "الرموز",
+    rtlName: "icon_admin",
     icon: "tim-icons icon-atom",
     component: Icons,
     layout: "/admin"
@@ -44,7 +44,7 @@ var routes = [
   {
     path: "/map",
     name: "Map",
-    rtlName: "خرائط",
+    rtlName: "map_admin",
     icon: "tim-icons icon-pin",
     component: Map,
     layout: "/admin"
@@ -52,7 +52,7 @@ var routes = [
   {
     path: "/notifications",
     name: "Notifications",
-    rtlName: "إخطارات",
+    rtlName: "notification_admin",
     icon: "tim-icons icon-bell-55",
     component: Notifications,
     layout: "/admin"
@@ -60,7 +60,7 @@ var routes = [
   {
     path: "/user-profile",
     name: "User Profile",
-    rtlName: "ملف تعريفي للمستخدم",
+    rtlName: "profile_admin",
     icon: "tim-icons icon-single-02",
     component: UserProfile,
     layout: "/admin"
@@ -68,7 +68,7 @@ var routes = [
   {
     path: "/tables",
     name: "Table List",
-    rtlName: "قائمة الجدول",
+    rtlName: "tables_admin",
     icon: "tim-icons icon-puzzle-10",
     component: TableList,
     layout: "/admin"
@@ -76,7 +76,7 @@ var routes = [
   {
     path: "/typography",
     name: "Typography",
-    rtlName: "طباعة",
+    rtlName: "typography_admin",
     icon: "tim-icons icon-align-center",
     component: Typography,
     layout: "/admin"
@@ -84,7 +84,7 @@ var routes = [
   {
     path: "/rtl-support",
     name: "RTL Support",
-    rtlName: "ار تي ال",
+    rtlName: "rtl_admin",
     icon: "tim-icons icon-world",
     component: Rtl,
     layout: "/rtl"
