@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Black Dashboard React v1.0.0
+* Dashboard SPC v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/black-dashboard-react
@@ -61,13 +61,12 @@ class Notifications extends React.Component {
       message: (
         <div>
           <div>
-            Welcome to <b>Black Dashboard React</b> - a beautiful freebie for
+            Welcome to <b>Dashboard SPC</b> - a beautiful freebie for
             every web developer.
           </div>
         </div>
       ),
       type: type,
-      icon: "tim-icons icon-bell-55",
       autoDismiss: 7
     };
     this.refs.notificationAlert.notificationAlert(options);

@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Black Dashboard React v1.0.0
+* Dashboard SPC v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/black-dashboard-react
@@ -38,37 +38,37 @@ class Typography extends React.Component {
                   <div className="typography-line">
                     <h1>
                       <span>Header 1</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h1>
                   </div>
                   <div className="typography-line">
                     <h2>
                       <span>Header 2</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h2>
                   </div>
                   <div className="typography-line">
                     <h3>
                       <span>Header 3</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h3>
                   </div>
                   <div className="typography-line">
                     <h4>
                       <span>Header 4</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h4>
                   </div>
                   <div className="typography-line">
                     <h5>
                       <span>Header 5</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h5>
                   </div>
                   <div className="typography-line">
                     <h6>
                       <span>Header 6</span>
-                      The Life of Black Dashboard React
+                      The Life of Dashboard SPC
                     </h6>
                   </div>
                   <div className="typography-line">
