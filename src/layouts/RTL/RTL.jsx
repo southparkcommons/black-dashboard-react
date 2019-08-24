@@ -135,8 +135,8 @@ class Admin extends React.Component {
             bgColor={this.state.backgroundColor}
             rtlActive
             logo={{
-              outterLink: "https://www.creative-tim.com/",
-              text: "الإبداعية تيم",
+              outterLink: "https://southparkcommons.com",
+              text: "createive_tim",
               imgSrc: logo
             }}
             toggleSidebar={this.toggleSidebar}
