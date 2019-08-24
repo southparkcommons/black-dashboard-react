@@ -36,8 +36,8 @@ let chart1_2_options = {
           zeroLineColor: "transparent"
         },
         ticks: {
-          suggestedMin: 60,
-          suggestedMax: 125,
+          suggestedMin: 0,
+          suggestedMax: 50,
           padding: 20,
           fontColor: "#9a9a9a"
         }
@@ -75,18 +75,18 @@ let chartExample1 = {
 
     return {
       labels: [
-        "JAN",
-        "FEB",
-        "MAR",
-        "APR",
-        "MAY",
-        "JUN",
-        "JUL",
-        "AUG",
-        "SEP",
-        "OCT",
-        "NOV",
-        "DEC"
+        "AUG 18",
+        "SEP 18",
+        "OCT 18",
+        "NOV 18",
+        "DEC 18",
+        "JAN 19",
+        "FEB 19",
+        "MAR 19",
+        "APR 19",
+        "MAY 19 ",
+        "JUN 19",
+        "JUL 19",
       ],
       datasets: [
         {
@@ -104,7 +104,7 @@ let chartExample1 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100]
+          data: [20, 30, 35, 20, 40, 30, 10, 15, 20, 20, 16, 14]
         }
       ]
     };
@@ -120,18 +120,18 @@ let chartExample1 = {
 
     return {
       labels: [
-        "JAN",
-        "FEB",
-        "MAR",
-        "APR",
-        "MAY",
-        "JUN",
-        "JUL",
-        "AUG",
-        "SEP",
-        "OCT",
-        "NOV",
-        "DEC"
+        "AUG 18",
+        "SEP 18",
+        "OCT 18",
+        "NOV 18",
+        "DEC 18",
+        "JAN 19",
+        "FEB 19",
+        "MAR 19",
+        "APR 19",
+        "MAY 19 ",
+        "JUN 19",
+        "JUL 19",
       ],
       datasets: [
         {
@@ -149,7 +149,7 @@ let chartExample1 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120]
+          data: [20, 30, 35, 20, 15, 10, 10, 15, 20, 20, 16, 14]
         }
       ]
     };
@@ -165,18 +165,18 @@ let chartExample1 = {
 
     return {
       labels: [
-        "JAN",
-        "FEB",
-        "MAR",
-        "APR",
-        "MAY",
-        "JUN",
-        "JUL",
-        "AUG",
-        "SEP",
-        "OCT",
-        "NOV",
-        "DEC"
+        "AUG 18",
+        "SEP 18",
+        "OCT 18",
+        "NOV 18",
+        "DEC 18",
+        "JAN 19",
+        "FEB 19",
+        "MAR 19",
+        "APR 19",
+        "MAY 19 ",
+        "JUN 19",
+        "JUL 19",
       ],
       datasets: [
         {
@@ -216,7 +216,14 @@ let chartExample2 = {
     gradientStroke.addColorStop(0, "rgba(29,140,248,0)"); //blue colors
 
     return {
-      labels: ["JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
+      labels: [
+      "FEB 19",
+      "MAR 19",
+      "APR 19",
+      "MAY 19 ",
+      "JUN 19",
+      "JUL 19",
+    ],
       datasets: [
         {
           label: "Data",
@@ -255,7 +262,14 @@ let chartExample3 = {
     gradientStroke.addColorStop(0, "rgba(119,52,169,0)"); //purple colors
 
     return {
-      labels: ["JUL", "AUG", "SEPT", "OCT", "NOV"],
+      labels: [
+        "FEB 19",
+        "MAR 19",
+        "APR 19",
+        "MAY 19 ",
+        "JUN 19",
+        "JUL 19",
+      ],
       datasets: [
         {
           label: "Countries",
@@ -334,7 +348,14 @@ const chartExample4 = {
     gradientStroke.addColorStop(0, "rgba(66,134,121,0)"); //green colors
 
     return {
-      labels: ["JUL", "AUG", "SEP", "OCT", "NOV"],
+      labels: [
+        "FEB 19",
+        "MAR 19",
+        "APR 19",
+        "MAY 19 ",
+        "JUN 19",
+        "JUL 19",
+      ],
       datasets: [
         {
           label: "My First dataset",

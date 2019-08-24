@@ -60,7 +60,7 @@ class Dashboard extends React.Component {
                 <CardHeader>
                   <Row>
                     <Col className="text-left" sm="6">
-                      <h5 className="card-category">Weeks Old</h5>
+                      <h5 className="card-category">Days Old</h5>
                       <CardTitle tag="h2">Applicants</CardTitle>
                     </Col>
                     <Col sm="6">
