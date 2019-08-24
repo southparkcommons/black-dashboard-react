@@ -17,7 +17,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
-        <Container fluid>
+        {/* <Container fluid>
           <Nav>
             <NavItem>
               <NavLink href="javascript:void(0)">Creative Tim</NavLink>
@@ -41,7 +41,7 @@ class Footer extends React.Component {
             </a>{" "}
             for a better web.
           </div>
-        </Container>
+        </Container> */}
       </footer>
     );
   }
