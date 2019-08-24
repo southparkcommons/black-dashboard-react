@@ -255,7 +255,7 @@ let chartExample3 = {
     gradientStroke.addColorStop(0, "rgba(119,52,169,0)"); //purple colors
 
     return {
-      labels: ["USA", "GER", "AUS", "UK", "RO", "BR"],
+      labels: ["JUL", "AUG", "SEPT", "OCT", "NOV"],
       datasets: [
         {
           label: "Countries",
@@ -266,7 +266,7 @@ let chartExample3 = {
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          data: [53, 20, 10, 80, 100, 45]
+          data: [53, 20, 10, 80, 100]
         }
       ]
     };
