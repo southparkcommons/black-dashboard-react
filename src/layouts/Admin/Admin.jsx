@@ -116,8 +116,8 @@ class Admin extends React.Component {
             routes={routes}
             bgColor={this.state.backgroundColor}
             logo={{
-              outterLink: "https://www.creative-tim.com/",
-              text: "Creative Tim",
+              outterLink: "https://southparkcommons.com",
+              text: "SPC",
               imgSrc: logo
             }}
             toggleSidebar={this.toggleSidebar}
