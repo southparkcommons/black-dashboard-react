@@ -62,14 +62,17 @@ class Dashboard extends React.Component {
     if (loading) {
       return <div></div>;
     }
-    var total_applicants = 7;
-    if (applicants) {
+    var total_applicants = 0;
+    if (applicants && typeof applicants !== 'undefined') {
       const newApplicants = applicants.filter(applicant => applicant['Status'] === 'New');
       console.log(newApplicants);
       newApplicants.forEach((_, applicant)=>{
         total_applicants += 7 * Number(applicant);
       });
       total_applicants = total_applicants/newApplicants.length;
+    }
+    else {
+      total_applicants = 7;
     }
 
     console.log(total_applicants);
