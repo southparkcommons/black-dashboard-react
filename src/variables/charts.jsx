@@ -75,7 +75,6 @@ let chartExample1 = {
 
     return {
       labels: [
-        "AUG 18",
         "SEP 18",
         "OCT 18",
         "NOV 18",
@@ -87,6 +86,7 @@ let chartExample1 = {
         "MAY 19 ",
         "JUN 19",
         "JUL 19",
+        "AUG 19",
       ],
       datasets: [
         {
@@ -104,7 +104,7 @@ let chartExample1 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [20, 30, 35, 20, 40, 30, 10, 15, 20, 20, 16, 14]
+          data: [20, 30, 35, 20, 40, 30, 10, 15, 20, 20, 14, 7]
         }
       ]
     };
