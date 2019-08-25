@@ -280,7 +280,7 @@ let chartExample3 = {
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          data: [53, 20, 10, 80, 100]
+          data: [53, 20, 10, 80, 100, 90]
         }
       ]
     };
@@ -372,7 +372,7 @@ const chartExample4 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [60, 40, 30, 20, 25],
+          data: [60, 40, 30, 20, 25, 30],
         }
       ]
     };
